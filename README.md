@@ -4,7 +4,7 @@ Sum of Products Lab
 Write a program that reads in two series of integers and returns the sum of multiplying the corresponding items in each series.  
 
 For example:  
-Input (format: digit space digit space)
+Input (format: digit space digit space)  
 1 2 3  
 3 2 1  
 
