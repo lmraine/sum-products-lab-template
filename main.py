@@ -20,9 +20,11 @@ if __name__ == '__main__':
     list2 = []
     
     for i in input1:
-        list1.append(i)
+        if not i.isspace():
+            list1.append(i)
     for i in input2:
-        list2.append(i)
+        if not i.isspace():
+            list2.append(i)
 
     output = sum_of_products(list1, list2)
 
