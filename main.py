@@ -9,7 +9,6 @@ def sum_of_products(list1, list2):
     else:
         return "error"
 
-#extra comment so I can commit again
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
