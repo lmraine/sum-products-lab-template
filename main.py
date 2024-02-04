@@ -1,8 +1,32 @@
 #REMOVE PASS AND FIX THE FUNCTION
 #change to test push and forks
 def sum_of_products(list1, list2):
-    pass
+    if len(list1) == len(list2):
+        total = 0
+        for i in range(len(list1)):
+            product = int(list1[i]) * int(list2[i])
+            total += product
+        return total
+    else:
+        return "error"
+
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    pass
+    
+    input1 = input()
+    input2 = input()
+
+    list1 = []
+    list2 = []
+    
+    for i in input1:
+        if not i.isspace():
+            list1.append(i)
+    for i in input2:
+        if not i.isspace():
+            list2.append(i)
+
+    output = sum_of_products(list1, list2)
+
+    print(output)
