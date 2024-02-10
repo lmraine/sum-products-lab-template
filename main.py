@@ -3,7 +3,7 @@ def sum_of_products(input1, input2):
     
     list1 = input1.split()
     list2 = input2.split()
-    print(list1, "\n", list2)
+    
     
     '''for i in range(-1,0):
         if list1[i] == " ":
