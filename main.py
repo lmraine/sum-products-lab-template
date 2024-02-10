@@ -26,7 +26,9 @@ def sum_of_products(input1, input2):
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    print(sum_of_products("1 2 3", "3 2 1"))
-    print(sum_of_products("  6 5 4    ", "  4 5  6"))
-    print(sum_of_products(" ", " "))
-    print(sum_of_products("1 2 10", "3 20 1"))
+    i1 = input()
+    i2 = input()
+
+    print(sum_of_products(i1, i2))
+
+    
