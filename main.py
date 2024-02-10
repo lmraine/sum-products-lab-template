@@ -1,6 +1,20 @@
 #REMOVE PASS AND FIX THE FUNCTION
-def sum_of_products(list1, list2):
+def sum_of_products(input1, input2):
+    
+    list1 = input1.split()
+    list2 = input2.split()
+    print(list1, "\n", list2)
+    
+    '''for i in range(-1,0):
+        if list1[i] == " ":
+            list1.pop(i)
+    for i in range(-1,0):
+        if list2[i] == " ":
+            list2.pop(i)'''
+    
+
     if len(list1) == len(list2):
+
         total = 0
         for i in range(len(list1)):
             product = int(list1[i]) * int(list2[i])
@@ -9,25 +23,10 @@ def sum_of_products(list1, list2):
     else:
         return "error"
 
-#still not working
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    
-    input1 = input()
-    input2 = input()
-
-    list1 = []
-    list2 = []
-    
-    for i in input1:
-        if not i.isspace():
-            list1.append(i)
-    for i in input2:
-        if not i.isspace():
-            list2.append(i)
-
-    output = sum_of_products(list1, list2)
-
-    print(output)
-#comment
+    print(sum_of_products("1 2 3", "3 2 1"))
+    print(sum_of_products("  6 5 4    ", "  4 5  6"))
+    print(sum_of_products(" ", " "))
+    print(sum_of_products("1 2 10", "3 20 1"))
