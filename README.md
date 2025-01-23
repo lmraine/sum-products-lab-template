@@ -1,6 +1,6 @@
 # sum-products-lab-template
 ## Sum of Products Lab  
-
+## TODO: add anaconda set up instructions
 Write a program that reads in two series of integers and returns the sum of multiplying the corresponding items in each series.  
 
 #### For example:  
